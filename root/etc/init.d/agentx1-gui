@@ -34,12 +34,12 @@ run_agentx1() {
     then
         if [ [ ${gateway} ] && [ ${dns} ] ];
         then
-            nohup agentx1 -L ${lan} -W ${wan} -p ${connMode} -a ${getIP} -u ${user} &
+             agentx1 -L ${lan} -W ${wan} -p ${connMode} -a ${getIP} -u ${user} 
         else
-            nohup agentx1 -L ${lan} -W ${wan} -p ${connMode} -a ${getIP} -g ${gateway} -d ${dns} -u ${user} &
+             agentx1 -L ${lan} -W ${wan} -p ${connMode} -a ${getIP} -g ${gateway} -d ${dns} -u ${user} 
         fi 
     else
-        nohup agentx1 -L ${lan} -W ${wan} -p ${connMode} -a ${getIP} -i ${staticIP} -n ${mask} -g ${gateway} -d ${dns} -u ${user} &
+         agentx1 -L ${lan} -W ${wan} -p ${connMode} -a ${getIP} -i ${staticIP} -n ${mask} -g ${gateway} -d ${dns} -u ${user} 
     fi
 
     echo "CONNECTED"
