@@ -2,7 +2,7 @@
 
 ver 0.0.1 beta
 
-##简介
+## 简介
 
 受到<https://github.com/mayswind/luci-app-njitclient>的启发，写了一个简单的agentx1 LuCI界面，勉强能用，可能会有一些问题
 
