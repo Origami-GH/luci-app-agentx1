@@ -1,6 +1,6 @@
 require("luci.sys")
 
-m = Map("agentx1-gui", "AGENTX1-GUI TEST TYPE", translate("WARNING:Read operators manual before use"))
+m = Map("agentx1-gui", "agentx1", translate("WARNING:Read operators manual before use"))
 
 s = m:section(TypedSection, "conn", translate("Settings"))
 s.addremove = false
