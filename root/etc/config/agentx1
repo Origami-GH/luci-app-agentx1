@@ -1,0 +1,10 @@
+config conn
+ option lan ''
+ option wan ''
+ option connMode ''
+ option getIP ''
+ option staticIP ''
+ option mask ''
+ option gateway ''
+ option dns ''
+ option user ''

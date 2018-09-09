@@ -1,6 +1,6 @@
 require("luci.sys")
 
-m = Map("agentx1-gui", "agentx1", translate("WARNING:Read operators manual before use"))
+m = Map("agentx1", "agentx1", translate("WARNING:Read operators manual before use"))
 
 s = m:section(TypedSection, "conn", translate("Settings"))
 s.addremove = false
@@ -46,7 +46,7 @@ un.rmempty = true
 
 local apply=luci.http.formvalue("cbi.apply")
 if apply then
-    io.popen("/etc/init.d/agentx1-gui restart")
+    io.popen("/etc/init.d/agentx1 restart")
 end
 
 return m
