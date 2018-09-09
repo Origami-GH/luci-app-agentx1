@@ -46,7 +46,7 @@ run_agentx1() {
 }
 
 start() {
-    config_load agentx1
+    config_load agentx1_config
     config_foreach run_agentx1 conn
 }
 

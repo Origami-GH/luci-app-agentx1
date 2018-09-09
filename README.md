@@ -1,6 +1,8 @@
 # agentx1-gui
 
-ver 0.0.1 beta
+ver 0.0.2 beta
+
+遇见的问题比我想象得要稍微大一点儿
 
 ## 简介
 
